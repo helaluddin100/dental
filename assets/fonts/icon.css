@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("icomoon.eot?nk4ne4");
+  src: url("icomoon.eot?nk4ne4#iefix") format("embedded-opentype"),
+    url("icomoon.woff2?nk4ne4") format("woff2"),
+    url("icomoon.ttf?nk4ne4") format("truetype"),
+    url("icomoon.woff?nk4ne4") format("woff"),
+    url("icomoon.svg?nk4ne4#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Half-star:before {
+  content: "\e905";
+  color: #ffc700;
+}
+
+.icon-Star:before {
+  content: "\e906";
+  color: #ffc700;
+}
+
+.icon-Subcribe-arrow:before {
+  content: "\e907";
+}
+
+.icon-email:before {
+  content: "\e908";
+}
+
+.icon-Phone:before {
+  content: "\e909";
+}
+
+.icon-Mouse-curser:before {
+  content: "\e90a";
+}
+
+.icon-Locxation:before {
+  content: "\e90b";
+}
+
+.icon-New-Patient:before {
+  content: "\e90c";
+}
+
+.icon-Arrow:before {
+  content: "\e90d";
+}
+
+.icon-Phone-iphone:before {
+  content: "\e90e";
+}
+
+.icon-Yelp:before {
+  content: "\e900";
+}
+
+.icon-Google:before {
+  content: "\e901";
+}
+
+.icon-Facebook-Fill .path1:before {
+  content: "\e902";
+}
+
+.icon-Facebook-Fill .path2:before {
+  content: "\e903";
+}
+
+.icon-Facebook-Stock:before {
+  content: "\e904";
+}
