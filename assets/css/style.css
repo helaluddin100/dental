@@ -164,6 +164,7 @@
 }
 
 .content-inner p {
+  font-size: 16px;
   margin: 15px 0;
 }
 
@@ -552,12 +553,15 @@ a.sidebar-link {
   color: var(--second-color);
   margin-bottom: 10px;
 }
+
 .about-content-inner p {
   font-size: 16px;
 }
-.welcome-sec{
+
+.welcome-sec {
   position: relative;
 }
+
 .welcome-sec::before {
   content: "";
   position: absolute;
@@ -571,4 +575,161 @@ a.sidebar-link {
   filter: blur(500px);
   left: 50%;
   top: 50%;
+}
+
+/* =============================Blog====================== */
+
+a.blog-title {
+  color: var(--black-color);
+  font-size: 20px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.blog-card-content {
+  margin-top: 30px;
+}
+
+.blog-card-content p {
+  font-size: 14px;
+  line-height: 170%;
+  padding-right: 30px;
+}
+
+.view-btn {
+  margin-top: 30px;
+}
+
+.blog-card-img img {
+  width: 100%;
+}
+
+a.blog-title:hover {
+  color: var(--main-color);
+}
+
+.blog-card {
+  margin-bottom: 50px;
+}
+
+/* ====================Blog details================= */
+
+.post-author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.name-position h3 {
+  font-size: 20px;
+}
+
+.name-position p {
+  font-size: 14px;
+}
+
+.name-position {
+  line-height: 32px;
+}
+
+.name-position p {
+  margin: 0;
+}
+
+.content-inner h1 {
+  font-size: var(--sec-title-font);
+}
+
+.blog-details-hero-content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.blog-details-img img {
+  width: 100%;
+  border-radius: 60px;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+}
+
+.search-input input {
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 0;
+  border: 1px solid;
+  border-right: 0;
+}
+
+.search-btn {
+  font-size: 16px;
+  width: 100%;
+  padding: 6px 20px;
+  border: none;
+  background: var(--main-color);
+  color: var(--white-color);
+}
+
+.blog-details-hero {
+  background: linear-gradient(
+    270.17deg,
+    rgba(239, 255, 247, 0.19) -0.94%,
+    rgba(74, 179, 167, 0) 99.45%
+  );
+}
+
+.brand-logo {
+  padding: 80px 0;
+}
+
+.number-btn {
+  padding-top: 20px;
+}
+
+.call-btn {
+  margin-top: 48px;
+}
+
+ul.inc-list li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 0;
+}
+
+ul.inc-list li p {
+  margin: 0;
+}
+
+ul.inc-list li span {
+  color: var(--second-color);
+}
+
+.patient-content-inner h3 {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.patient-content-inner p {
+  font-size: 16px;
+}
+
+.patient-content-inner h2 {
+  font-size: var(--sec-title-font);
+  color: #000;
+  margin-bottom: 20px;
+}
+
+ul.inc-list {
+  margin-top: 20px;
+}
+
+.included-img img {
+  max-width: 100%;
 }
