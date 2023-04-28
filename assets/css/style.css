@@ -298,6 +298,7 @@ ul.rate-ul {
 .location-card-inner p {
   font-size: 16px;
   margin-top: 10px;
+  height: 86px;
 }
 
 .location-phone {
@@ -309,6 +310,7 @@ ul.rate-ul {
 .phone-text p {
   margin: 0;
   font-size: 14px;
+  height: fit-content;
 }
 
 .location-phone span {

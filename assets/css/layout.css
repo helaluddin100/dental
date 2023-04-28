@@ -227,3 +227,31 @@ ul.menu-list li:hover .mega-menu {
 .po-width {
   width: 600px;
 }
+
+.welcome-content {
+  text-align: center;
+}
+
+.welcome-content h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.welcome-content p {
+  font-size: 16px;
+}
+
+a.return-home {
+  margin-top: 41px;
+  color: var(--main-color);
+  transition: 0.3s;
+}
+
+a.return-home:hover {
+  color: var(--second-color);
+}
+
+.contact-submit a {
+  width: 100%;
+  text-align: center;
+}
