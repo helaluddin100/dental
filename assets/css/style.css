@@ -735,3 +735,9 @@ ul.inc-list {
 .included-img img {
   max-width: 100%;
 }
+
+.list-heading {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
+}
