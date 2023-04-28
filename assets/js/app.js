@@ -7,6 +7,11 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
+var swiper = new Swiper(".careerSlider", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+});
+
 // FOR RESUME CATEGORY ACTIVE BUTTON
 $(".service-show-link").on("click", function () {
   $(".service-show-link").removeClass("active");

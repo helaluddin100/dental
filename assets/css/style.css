@@ -245,11 +245,13 @@ ul.rate-ul {
 }
 
 .swiper-slide.swiper-slide-next {
-  transform: scale(1.2) !important;
+  transform: scale(1) !important;
+  transition: 0.3s;
 }
 
 .swiper-slide {
-  transform: scale(0.8) !important;
+  transform: scale(0.75) !important;
+  transition: 0.3s;
 }
 
 .swiper-slide.swiper-slide-next .tst-card-inner {
@@ -740,4 +742,155 @@ ul.inc-list {
   font-size: 24px;
   font-weight: 500;
   margin-top: 20px;
+}
+
+.contact-form-content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.contact-content-inner h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 170%;
+  /* identical to box height, or 34px */
+  font-feature-settings: "ss01" on, "ss03" on, "cv03" on, "cv04" on, "cv06" on,
+    "cv09" on;
+  color: var(--second-color);
+}
+
+.contact-content-inner h2 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 135%;
+  /* identical to box height, or 49px */
+  font-feature-settings: "pnum" on, "lnum" on, "ss03" on, "cv03" on, "cv04" on,
+    "cv06" on, "cv09" on, "case" on, "cpsp" on;
+  /* Black/Dark */
+  color: #101010;
+}
+
+.contact-content-inner p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  /* or 27px */
+  /* Gray/Semi light */
+  color: #7a7a7a;
+}
+
+.contact-content-inner p a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  /* or 27px */
+  /* Gray/Semi light */
+  color: #7a7a7a;
+  transition: 0.3s;
+}
+
+.contact-content-inner p a:hover {
+  color: var(--main-color);
+}
+
+.form-input label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 135%;
+  /* identical to box height, or 19px */
+  letter-spacing: -0.09px;
+  font-feature-settings: "ss01" on, "ss03" on, "cv03" on, "cv04" on, "cv06" on,
+    "cv09" on;
+  /* Black/Dark */
+  color: #101010;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.contact-content-inner {
+  width: 100%;
+}
+
+.form-control {
+  padding: 12px 20px;
+}
+
+.contact-submit button {
+  width: 100%;
+  background: none;
+}
+
+.career-show-img {
+  display: flex;
+  align-items: center;
+  height: 600px;
+}
+
+.career-show-img img {
+  position: absolute;
+  right: 0;
+}
+
+.career-menu {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.application {
+  background: linear-gradient(
+    255.38deg,
+    rgba(244, 117, 33, 0.08) -0.57%,
+    rgba(66, 159, 221, 0.05) 107.62%
+  );
+  margin: 100px 0;
+}
+
+.application-content {
+  text-align: center;
+}
+
+.application-content h2 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 135%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #434343;
+}
+
+.application-content a {
+  line-height: 170%;
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
+.application-content p {
+  padding: 10px;
+}
+
+.text-centerd {
+  text-align: center;
+}
+
+.text-centerd h2::before {
+  display: none;
+}
+
+.careerSlider .swiper-slide {
+  opacity: 60%;
+}
+
+.careerSlider .swiper-slide-next {
+  opacity: 100% !important;
+}
+
+.career-slider img {
+  width: 100%;
 }
