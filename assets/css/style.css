@@ -423,13 +423,15 @@ ul.rate-ul {
   margin-bottom: 20px;
 }
 
-a.service-show-link {
+.service-show-link {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   color: #bebebe;
   transition: 0.3s;
   padding: 10px 0;
+  background: none;
+  border: none;
 }
 
 .service-show-link:hover {
@@ -454,7 +456,7 @@ a.service-show-link {
 }
 
 .service-menu.active {
-  display: flex;
+  /* display: flex; */
 }
 
 .item-details h1 {
