@@ -19,7 +19,7 @@ $(".service-show-link").on("click", function () {
 });
 
 // FOR RESUME CATEGORY ACTIVE CONTENT
-function filter(active) {
+function filterService(active) {
   hide = document.getElementsByClassName("ss_item");
   for (i = 0; i < hide.length; i++) {
     hide[i].style.display = "none";
