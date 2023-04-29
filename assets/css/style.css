@@ -11,6 +11,25 @@
   );
 }
 
+span.hero-phone {
+  background: var(--second-color);
+  /* padding: 20px; */
+  color: var(--white-color);
+  width: 40px;
+  height: 40px;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.hero-btn-area p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .hero-content h1 {
   font-size: var(--title-font);
   color: rgb(16, 16, 16);
@@ -517,7 +536,7 @@ a.sidebar-link {
 }
 
 .service-show-content {
-  width: 378px;
+  width: 420px;
 }
 
 .about-welcome-content {
@@ -1098,4 +1117,10 @@ ul.faq-ul {
 
 .tst-card.rv-padding {
   padding: 33px !important;
+}
+
+.book-call-btn {
+  gap: 20px;
+  display: flex;
+  align-items: center;
 }
