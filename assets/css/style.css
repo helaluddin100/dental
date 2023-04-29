@@ -222,10 +222,11 @@
 /* ==================testimonial================ */
 
 .tst-card {
-  padding: 40px 25px;
+  padding: 68px;
   font-size: 18px;
   box-shadow: 0px 0px 100px rgba(165, 164, 164, 0.2);
   border-radius: 30px;
+  margin-bottom: 20px;
 }
 
 .customer-info-and-rate {
@@ -445,18 +446,18 @@ ul.rate-ul {
 
 .service-show-link.active {
   color: var(--second-color);
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 
 .service-show-img {
   height: 100%;
   display: flex;
   align-items: center;
+  padding-left: 28px;
 }
 
 .service-show-img img {
-  position: absolute;
-  right: 0;
+  width: 100%;
 }
 
 .service-menu.active {
@@ -538,7 +539,8 @@ a.sidebar-link {
 }
 
 .service-show-content {
-  padding-right: 60px;
+  /* padding-right: 60px; */
+  width: 378px;
 }
 
 /* ===========================about =================== */
@@ -895,4 +897,217 @@ ul.inc-list {
 
 .career-slider img {
   width: 100%;
+}
+
+/* ========================testimonial ================ */
+
+.post-review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-review {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+ul.filter-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  background: #fff;
+  box-shadow: 0px 10px 20px rgba(165, 164, 164, 0.15);
+  border-radius: 16px;
+  padding: 10px 20px;
+  width: fit-content;
+}
+
+.filter-link {
+  padding: 6px 32px;
+  border-radius: 5px;
+  color: #000;
+  transition: 0.3s;
+  background: none;
+  border: none;
+}
+
+.filter-wrapper {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul.rate-ul li a {
+  color: #ffc700;
+}
+
+.tst-card-inner::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-image: url(../img/testmonial/6.png);
+  position: absolute;
+  z-index: -1;
+  left: -30px;
+  top: -20px;
+}
+
+.tst-card-inner {
+  position: relative;
+}
+
+p.review-message {
+  height: 150px;
+}
+
+.filter-link.mixitup-control-active {
+  background: #effff7;
+}
+
+.location-map-im img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+ul.location-ul li a {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 135%;
+  /* or 32px */
+  /* Black/Light */
+  color: #434343;
+  padding: 15px 0;
+  transition: 0.3s;
+}
+
+.location-details {
+  margin: 30px 0;
+  line-height: 170%;
+}
+
+p.location-neme {
+  font-size: 24px;
+  color: #101010;
+  font-weight: 400 !important;
+}
+
+.location-details p {
+  color: #101010;
+  font-weight: 500;
+}
+
+.open-table table {
+  font-size: 16px;
+}
+
+.call-email p a {
+  color: #101010;
+}
+
+.call-email p strong {
+  font-weight: 600;
+  color: #101010;
+}
+
+.location-map-im {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.location-area {
+  display: none;
+}
+
+.location-tab {
+  background: none;
+  border: none;
+  padding: 15px 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.location-tab:hover {
+  color: var(--main-color);
+}
+
+.location-tab.active {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 135%;
+  position: relative;
+}
+
+.location-tab.active::before {
+  content: "";
+  width: 41px;
+  height: 15px;
+  position: absolute;
+  z-index: -1;
+  bottom: 14px;
+  background: #85ffc2;
+}
+
+.open-table {
+  margin-bottom: 40px;
+  color: var(--main-color);
+}
+
+/*=====================================
+          FAQ PART STYLE
+======================================*/
+
+.faq__content {
+  margin-bottom: 24px;
+  background: #ffffff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
+}
+
+.faq__content:hover .faq__que button {
+  color: #000;
+}
+
+.faq__que {
+  cursor: pointer;
+  padding: 18px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.faq__que button {
+  border: none;
+  outline: none;
+  background: none;
+  text-align: left;
+  color: #292929;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.faq__ans p {
+  font-size: 15px;
+  line-height: 26px;
+  color: #666666;
+}
+
+.faq__ans {
+  padding: 15px 25px;
+}
+
+.faq__que span {
+  background: #292929;
+  color: #fff;
+  padding: 5px;
 }

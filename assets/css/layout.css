@@ -169,17 +169,18 @@ a.view-service {
 }
 
 .menu-title p {
-  line-height: 170%;
 }
 
 .menu-title p {
   line-height: 170%;
+  font-size: 12px;
 }
 
 a.mega-link {
   color: var(--second-color);
   transition: 0.3s;
   padding: 5px 0;
+  font-size: 14px;
 }
 
 a.mega-link:hover {
