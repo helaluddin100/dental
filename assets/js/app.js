@@ -63,7 +63,7 @@ $(function ($) {
 });
 
 $(".faq__que").click(function () {
-  $(".faq__que i").addClass("icofont-plus");
-  $(this.children[1]).removeClass("icofont-plus");
-  $(this.children[1]).addClass("icofont-minus");
+  $(".faq__que span").addClass("icon-plus");
+  $(this.children[1]).removeClass("icon-plus");
+  $(this.children[1]).addClass("icon-Minus");
 });
