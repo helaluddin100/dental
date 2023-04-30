@@ -1,5 +1,5 @@
 .hero {
-  min-height: 668px;
+  min-height: 686px;
   display: flex;
   overflow: hidden;
   align-items: center;
@@ -13,11 +13,9 @@
 
 span.hero-phone {
   background: var(--second-color);
-  /* padding: 20px; */
   color: var(--white-color);
   width: 40px;
   height: 40px;
-  display: block;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,6 +33,7 @@ span.hero-phone {
   color: rgb(16, 16, 16);
   margin-bottom: 10px;
   font-weight: 700;
+  line-height: 135%;
 }
 
 .hero-btn-area {
@@ -59,7 +58,9 @@ span.hero-phone {
 .feature-card h2 {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 5px;
+  padding-right: 50px;
+  margin-bottom: 10px;
+  line-height: 170%;
 }
 
 .feature-card {
@@ -70,16 +71,18 @@ span.hero-phone {
   z-index: 1;
   background: rgb(255, 255, 255);
   font-size: 14px;
+  height: 100%;
 }
 
 .card-icon {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .feature-card h3 {
   font-weight: 600;
   font-size: 24px;
   color: var(--second-color);
+  padding: 5px 0;
 }
 
 .feature-card-wrapper::after {
@@ -93,6 +96,7 @@ span.hero-phone {
 
 .feature-card-wrapper {
   position: relative;
+  height: 100%;
 }
 
 .feature {
@@ -248,18 +252,35 @@ ul.rate-ul {
   font-size: 14px;
 }
 
-.swiper-slide.swiper-slide-next {
+.swiper-slide.swiper-slide-next,
+.swiper-slide.swiper-slide-prev {
   transition: all 0.3s ease 0s;
-  transform: scale(1) !important;
+  transform: scale(0.8) !important;
+  -webkit-transform: scale(0.8) !important;
+  -moz-transform: scale(0.8) !important;
+  -ms-transform: scale(0.8) !important;
+  -o-transform: scale(0.8) !important;
+}
+
+.swiper-slide.swiper-slide-active {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
 }
 
 .swiper-slide {
-  transition: all 0.3s ease 0s;
-  transform: scale(0.75) !important;
+  /* transition: all 0.3s ease 0s; */
+  /* transform: scale(0.75) !important; */
 }
 
-.swiper-slide.swiper-slide-next .tst-card-inner {
+/* .swiper-slide.swiper-slide-next .tst-card-inner {
   font-size: 13px;
+} */
+
+.swiper-wrapper {
+  padding: 87px 0;
 }
 
 .testimonial-inner {
@@ -287,7 +308,7 @@ ul.rate-ul {
 }
 
 .location-card {
-  padding: 40px 30px;
+  padding: 40px 25px;
   border-radius: 10px;
   position: relative;
 }
@@ -306,14 +327,15 @@ ul.rate-ul {
 
 .location-phone {
   display: flex;
-  padding: 59px 0px;
+  padding-top: 20px;
   align-items: center;
+  padding-bottom: 48px;
 }
 
 .phone-text p {
   margin: 0px;
   font-size: 14px;
-  height: fit-content;
+  height: fit-content !important;
 }
 
 .location-phone span {
@@ -820,8 +842,6 @@ ul.inc-list {
 }
 
 .career-show-img img {
-  /* position: absolute; */
-  /* right: 0px; */
 }
 
 .career-menu {
@@ -1089,7 +1109,7 @@ p.location-neme {
 
 .faq-title h2 {
   font-size: var(--sec-title-font);
-  color: #000;
+  color: rgb(0, 0, 0);
   margin-bottom: 8px;
 }
 
@@ -1102,9 +1122,8 @@ ul.faq-ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #ffffff;
-  /* Shadow/Semi Bold All Rectangle */
-  box-shadow: 0px 0px 20px rgba(165, 164, 164, 0.15);
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(165, 164, 164, 0.15) 0px 0px 20px;
   border-radius: 8px;
   padding: 45px;
   margin-top: 50px;
@@ -1116,11 +1135,23 @@ ul.faq-ul {
 }
 
 .tst-card.rv-padding {
-  padding: 33px !important;
+  padding: 65px !important;
 }
 
 .book-call-btn {
   gap: 20px;
   display: flex;
   align-items: center;
+}
+
+.expert-content-inner {
+  padding-left: 15px;
+}
+
+.location-card-inner p {
+  height: 85px;
+}
+
+.feature-card p {
+  line-height: 170%;
 }

@@ -2,15 +2,18 @@ ul.top-head-menu {
   display: flex;
   justify-content: end;
   align-items: center;
-  padding: 10px 0;
+  padding: 5px 0;
+  gap: 30px;
 }
 
 a.top-link {
   color: #7a7a7a;
   font-size: 16px;
-  padding: 10px 20px;
+  padding: 4px 20px;
   transition: 0.3s;
   border-radius: 50px;
+  line-height: 170%;
+  margin-left: -20px;
 }
 
 a.top-link:hover {
@@ -25,8 +28,8 @@ a.top-link:hover {
 }
 
 .main-header {
-  background: #ccebff;
-  padding: 20px 0;
+  padding: 13px 0;
+  background: rgba(204, 235, 255, 0.4);
 }
 
 ul.menu-list {
@@ -129,12 +132,12 @@ a.footer-link {
   background: var(--white-color);
   z-index: 9;
   overflow: hidden;
-  left: 300px;
+  /* left: 300px; */
   filter: drop-shadow(0px 10px 20px rgba(165, 164, 164, 0.15));
   /* right: 200px; */
   border-radius: 0px 0px 30px 30px;
   padding: 40px 0;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   transition: 0.3s;
   opacity: 0;
   visibility: hidden;
@@ -184,6 +187,7 @@ a.mega-link {
   transition: 0.3s;
   padding: 5px 0;
   font-size: 14px;
+  line-height: 170%;
 }
 
 a.mega-link:hover {
@@ -195,7 +199,7 @@ a.view-service:hover {
 }
 
 ul.menu-list li:hover .mega-menu {
-  margin-top: 0;
+  /* margin-top: 0; */
   opacity: 1;
   visibility: visible;
 }
@@ -220,12 +224,13 @@ ul.menu-list li:hover .mega-menu {
   background: #effff7;
   bottom: -24%;
   right: -100px;
+  z-index: -1;
 }
 
 .mega-item {
   border-right: 1px solid #ddd;
   height: 100%;
-  padding: 0 40px;
+  padding: 0 25px;
 }
 
 .po-width {
@@ -281,4 +286,21 @@ ul.footer-social-ul {
 
 a.social-link:hover {
   background: var(--main-color);
+}
+
+.mega-menu.service-mega-menu {
+  width: 920px;
+  left: -200px;
+}
+
+ul.menu-list li {
+  position: relative;
+}
+
+.mega-menu.po-width.payment-menu {
+  left: -170px;
+}
+
+.mega-menu.po-width.about-menu {
+  left: -200px;
 }

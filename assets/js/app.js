@@ -1,6 +1,9 @@
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
+  slidesPerView: 1.9,
   spaceBetween: 30,
+  centeredSlides: true,
+  initialSlide: 1,
+  // loop: true,
   navigation: {
     nextEl: ".testimonial-next",
     prevEl: ".testimonial-prev",

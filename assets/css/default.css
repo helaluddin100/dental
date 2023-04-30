@@ -110,7 +110,7 @@ table.table {
 
 .custom-btn {
   background: var(--main-color);
-  padding: 10px 30px;
+  padding: 7px 38px;
   border-radius: 54px;
   font-size: 16px;
   text-transform: capitalize;
@@ -136,7 +136,7 @@ table.table {
 }
 
 .custom-btn-alt {
-  padding: 10px 30px;
+  padding: 12px 39px;
   border-radius: 54px;
   font-size: 16px;
   text-transform: capitalize;
@@ -182,7 +182,7 @@ table.table {
 }
 
 .custom-btn-alt-second {
-  padding: 10px 30px;
+  padding: 12px 39px;
   border-radius: 54px;
   font-size: 16px;
   text-transform: capitalize;
