@@ -1,11 +1,11 @@
 @font-face {
   font-family: "icomoon";
-  src: url("icomoon.eot?slc7ct");
-  src: url("icomoon.eot?slc7ct#iefix") format("embedded-opentype"),
-    url("icomoon.woff2?slc7ct") format("woff2"),
-    url("icomoon.ttf?slc7ct") format("truetype"),
-    url("icomoon.woff?slc7ct") format("woff"),
-    url("icomoon.svg?slc7ct#icomoon") format("svg");
+  src: url("icomoon.eot?tq2e7a");
+  src: url("icomoon.eot?tq2e7a#iefix") format("embedded-opentype"),
+    url("icomoon.woff2?tq2e7a") format("woff2"),
+    url("icomoon.ttf?tq2e7a") format("truetype"),
+    url("icomoon.woff?tq2e7a") format("woff"),
+    url("icomoon.svg?tq2e7a#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,63 +25,79 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-phone:before {
-  content: "\e900";
+.icon-Linkedin:before {
+  content: "\e912";
 }
 
-.icon-cross:before {
-  content: "\e901";
+.icon-Instragram2:before {
+  content: "\e913";
+}
+
+.icon-Yelp:before {
+  content: "\e914";
+}
+
+.icon-Facebook:before {
+  content: "\e915";
 }
 
 .icon-Arrow:before {
-  content: "\e902";
+  content: "\e900";
 }
 
 .icon-Arrow-small-gray:before {
-  content: "\e903";
+  content: "\e901";
 }
 
 .icon-Arrow-small:before {
-  content: "\e904";
+  content: "\e902";
 }
 
 .icon-contact-email:before {
-  content: "\e905";
+  content: "\e903";
 }
 
 .icon-contact-phone:before {
-  content: "\e906";
+  content: "\e904";
+}
+
+.icon-cross:before {
+  content: "\e905";
 }
 
 .icon-email:before {
-  content: "\e907";
+  content: "\e906";
 }
 
 .icon-Half-star:before {
-  content: "\e908";
+  content: "\e907";
 }
 
 .icon-Line-break:before {
+  content: "\e908";
+}
+
+.icon-Location:before {
   content: "\e909";
 }
 
-.icon-Locxation:before {
+.icon-Minus:before {
   content: "\e90a";
 }
 
-.icon-Minus:before {
+.icon-Mouse-curser:before {
   content: "\e90b";
 }
 
-.icon-Mouse-curser:before {
+.icon-New-Patient:before {
   content: "\e90c";
 }
 
-.icon-New-Patient:before {
+.icon-Phone:before {
   content: "\e90d";
 }
 
-.icon-Phone:before {
+.icon-phone:before {
   content: "\e90e";
 }
 
