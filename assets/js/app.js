@@ -42,9 +42,29 @@ function filter(active) {
   }
 
   let show = document.getElementsByClassName(active);
-  for (i = 0; i < hide.length; i++) {
+  for (i = 0; i < show.length; i++) {
     show[i].style.display = "block";
   }
+  // Change the location map image based on the active location
+  const locationMapIm = document.querySelector(".location-map-im img");
+  switch (active) {
+    case "dallas":
+      locationMapIm.src = "assets/img/location/2.png";
+      break;
+    case "garland":
+      locationMapIm.src = "https://via.placeholder.com/500x300";
+      break;
+    case "mesquite":
+      locationMapIm.src = "https://via.placeholder.com/400x200";
+      break;
+    case "east_dallas":
+      locationMapIm.src = "https://via.placeholder.com/600x400";
+      break;
+    default:
+      locationMapIm.src = "assets/img/location/2.png";
+      break;
+  }
+
 }
 // FOR RESUME CATEGORY ACTIVE BUTTON
 $(".location-tab").on("click", function () {
