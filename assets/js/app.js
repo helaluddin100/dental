@@ -81,18 +81,19 @@ function filter(active) {
       locationMapIm.src = "assets/img/location/2.png";
       break;
     case "garland":
-      locationMapIm.src = "assets/img/location/3.png";
+      locationMapIm.src = "https://via.placeholder.com/500x300";
       break;
     case "mesquite":
-      locationMapIm.src = "assets/img/location/4.png";
+      locationMapIm.src = "https://via.placeholder.com/400x200";
       break;
     case "east_dallas":
-      locationMapIm.src = "assets/img/location/4.png";
+      locationMapIm.src = "https://via.placeholder.com/600x400";
       break;
     default:
       locationMapIm.src = "assets/img/location/2.png";
       break;
   }
+
 }
 // FOR RESUME CATEGORY ACTIVE BUTTON
 $(".location-tab").on("click", function () {
